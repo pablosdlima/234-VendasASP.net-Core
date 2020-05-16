@@ -1,0 +1,2 @@
+USE VENDAS_ASP;
+SELECT * FROM departamento;
