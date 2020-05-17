@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using Vendas.Models.Enum;
 
 namespace Vendas.Models
 {
@@ -13,6 +14,8 @@ namespace Vendas.Models
         {
         }
 
-        public DbSet<Vendas.Models.Departamento> Departamento { get; set; }
+        public DbSet<Departamento> Departamento { get; set; }
+        public DbSet<VendasRecord> VendasRecord { get; set; }
+        public DbSet<Vendedor> Vendedor { get; set; }
     }
 }
