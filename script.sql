@@ -1,3 +1,4 @@
+Create database VENDAS_ASP;
 USE VENDAS_ASP;
 SELECT * FROM departamento;
 SELECT * FROM VENDEDOR;
