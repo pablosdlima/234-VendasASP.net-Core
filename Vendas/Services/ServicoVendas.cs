@@ -21,6 +21,7 @@ namespace Vendas.Services
         }
         public void Insert(Vendedor obj)
         {
+            obj.Departamento = _context.Departamento.First(); //pega o primeiro registro de departamento
             _context.Add(obj);
             _context.SaveChanges();
         }

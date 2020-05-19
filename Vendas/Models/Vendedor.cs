@@ -13,6 +13,7 @@ namespace Vendas.Models
         public double BaseSalarial { get; set; }
         public DateTime Data { get; set; }
         public Departamento Departamento { get; set; } //vendedor possui 1 departamento
+        public int DepartamentoId { get; set; } //criando FK
         public ICollection<VendasRecord> Vendas { get; set; } = new List<VendasRecord>(); //permite o acesso a coleção dos objs
 
         public Vendedor()
