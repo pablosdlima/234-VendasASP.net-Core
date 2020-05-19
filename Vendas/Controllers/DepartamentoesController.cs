@@ -57,8 +57,8 @@ namespace Vendas.Controllers
         {
             if (ModelState.IsValid)
             {
-                _context.Add(departamento);
-                await _context.SaveChangesAsync();
+                _context.Add(departamento); //permiste os dados da model.
+                await _context.SaveChangesAsync(); //armazena os dados da model no sql.
                 return RedirectToAction(nameof(Index));
             }
             return View(departamento);

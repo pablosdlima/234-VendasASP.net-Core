@@ -7,7 +7,7 @@ using Vendas.Models.Enum;
 
 namespace Vendas.Models
 {
-    public class VendasContext : DbContext
+    public class VendasContext : DbContext //Classe context que relaciona a MODEL com o bd
     {
         public VendasContext (DbContextOptions<VendasContext> options)
             : base(options)

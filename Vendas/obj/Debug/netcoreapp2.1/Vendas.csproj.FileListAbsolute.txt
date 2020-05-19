@@ -77,3 +77,4 @@ C:\Users\Pablo\Desktop\234-VendasASP.net-Core\Vendas\obj\Debug\netcoreapp2.1\Ven
 C:\Users\Pablo\Desktop\234-VendasASP.net-Core\Vendas\obj\Debug\netcoreapp2.1\Vendas.genruntimeconfig.cache
 C:\Users\Pablo\Desktop\234-VendasASP.net-Core\Vendas\obj\Debug\netcoreapp2.1\Vendas.csproj.CopyComplete
 C:\Users\Pablo\Desktop\234-VendasASP.net-Core\Vendas\obj\Debug\netcoreapp2.1\Razor\Views\Vendedores\Index.cshtml.g.cs
+C:\Users\Pablo\Desktop\234-VendasASP.net-Core\Vendas\obj\Debug\netcoreapp2.1\Razor\Views\Vendedores\Create.cshtml.g.cs

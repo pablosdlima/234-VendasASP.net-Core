@@ -6,7 +6,7 @@ using Vendas.Models;
 
 namespace Vendas.Data
 {
-    public class SeedingServices
+    public class SeedingServices //context para gravar os dados na inicialização.
     {
         private VendasContext _context;
 
