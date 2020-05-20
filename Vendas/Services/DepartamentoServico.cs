@@ -6,23 +6,18 @@ using Vendas.Models;
 
 namespace Vendas.Services
 {
-    public class ServicoVendas
+    public class DepartamentoServico
     {
         private readonly VendasContext _context; //obj de leitura 
 
-        public ServicoVendas(VendasContext context)
+        public DepartamentoServico(VendasContext context)
         {
             _context = context;
         }
 
-        public List<Vendedor> FindAll()
+        public List<Departamento> FindAll()
         {
-            return _context.Vendedor.ToList();
-        }
-        public void Insert(Vendedor obj)
-        {
-            _context.Add(obj);
-            _context.SaveChanges();
+            return _context.Departamento.OrderBy(x => x.Nome).ToList(); //retornar nomes ordenados.
         }
     }
 }

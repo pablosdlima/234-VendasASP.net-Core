@@ -78,3 +78,42 @@ C:\Users\Pablo\Desktop\234-VendasASP.net-Core\Vendas\obj\Debug\netcoreapp2.1\Ven
 C:\Users\Pablo\Desktop\234-VendasASP.net-Core\Vendas\obj\Debug\netcoreapp2.1\Vendas.csproj.CopyComplete
 C:\Users\Pablo\Desktop\234-VendasASP.net-Core\Vendas\obj\Debug\netcoreapp2.1\Razor\Views\Vendedores\Index.cshtml.g.cs
 C:\Users\Pablo\Desktop\234-VendasASP.net-Core\Vendas\obj\Debug\netcoreapp2.1\Razor\Views\Vendedores\Create.cshtml.g.cs
+C:\Users\Pablo Victor\Desktop\234-VendasASP.net-Core\Vendas\bin\Debug\netcoreapp2.1\Vendas.deps.json
+C:\Users\Pablo Victor\Desktop\234-VendasASP.net-Core\Vendas\bin\Debug\netcoreapp2.1\Vendas.runtimeconfig.json
+C:\Users\Pablo Victor\Desktop\234-VendasASP.net-Core\Vendas\bin\Debug\netcoreapp2.1\Vendas.runtimeconfig.dev.json
+C:\Users\Pablo Victor\Desktop\234-VendasASP.net-Core\Vendas\bin\Debug\netcoreapp2.1\Vendas.dll
+C:\Users\Pablo Victor\Desktop\234-VendasASP.net-Core\Vendas\bin\Debug\netcoreapp2.1\Vendas.pdb
+C:\Users\Pablo Victor\Desktop\234-VendasASP.net-Core\Vendas\bin\Debug\netcoreapp2.1\Vendas.Views.dll
+C:\Users\Pablo Victor\Desktop\234-VendasASP.net-Core\Vendas\bin\Debug\netcoreapp2.1\Vendas.Views.pdb
+C:\Users\Pablo Victor\Desktop\234-VendasASP.net-Core\Vendas\obj\Debug\netcoreapp2.1\Vendas.csprojAssemblyReference.cache
+C:\Users\Pablo Victor\Desktop\234-VendasASP.net-Core\Vendas\obj\Debug\netcoreapp2.1\Vendas.csproj.CoreCompileInputs.cache
+C:\Users\Pablo Victor\Desktop\234-VendasASP.net-Core\Vendas\obj\Debug\netcoreapp2.1\Vendas.RazorAssemblyInfo.cache
+C:\Users\Pablo Victor\Desktop\234-VendasASP.net-Core\Vendas\obj\Debug\netcoreapp2.1\Vendas.RazorAssemblyInfo.cs
+C:\Users\Pablo Victor\Desktop\234-VendasASP.net-Core\Vendas\obj\Debug\netcoreapp2.1\Vendas.AssemblyInfoInputs.cache
+C:\Users\Pablo Victor\Desktop\234-VendasASP.net-Core\Vendas\obj\Debug\netcoreapp2.1\Vendas.AssemblyInfo.cs
+C:\Users\Pablo Victor\Desktop\234-VendasASP.net-Core\Vendas\obj\Debug\netcoreapp2.1\Vendas.TagHelpers.input.cache
+C:\Users\Pablo Victor\Desktop\234-VendasASP.net-Core\Vendas\obj\Debug\netcoreapp2.1\Vendas.TagHelpers.output.cache
+C:\Users\Pablo Victor\Desktop\234-VendasASP.net-Core\Vendas\obj\Debug\netcoreapp2.1\Vendas.RazorCoreGenerate.cache
+C:\Users\Pablo Victor\Desktop\234-VendasASP.net-Core\Vendas\obj\Debug\netcoreapp2.1\Razor\Views\Departamentoes\Create.g.cshtml.cs
+C:\Users\Pablo Victor\Desktop\234-VendasASP.net-Core\Vendas\obj\Debug\netcoreapp2.1\Razor\Views\Departamentoes\Delete.g.cshtml.cs
+C:\Users\Pablo Victor\Desktop\234-VendasASP.net-Core\Vendas\obj\Debug\netcoreapp2.1\Razor\Views\Departamentoes\Details.g.cshtml.cs
+C:\Users\Pablo Victor\Desktop\234-VendasASP.net-Core\Vendas\obj\Debug\netcoreapp2.1\Razor\Views\Departamentoes\Edit.g.cshtml.cs
+C:\Users\Pablo Victor\Desktop\234-VendasASP.net-Core\Vendas\obj\Debug\netcoreapp2.1\Razor\Views\Departamentoes\Index.g.cshtml.cs
+C:\Users\Pablo Victor\Desktop\234-VendasASP.net-Core\Vendas\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+C:\Users\Pablo Victor\Desktop\234-VendasASP.net-Core\Vendas\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+C:\Users\Pablo Victor\Desktop\234-VendasASP.net-Core\Vendas\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\Pablo Victor\Desktop\234-VendasASP.net-Core\Vendas\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Users\Pablo Victor\Desktop\234-VendasASP.net-Core\Vendas\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\Pablo Victor\Desktop\234-VendasASP.net-Core\Vendas\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\Pablo Victor\Desktop\234-VendasASP.net-Core\Vendas\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\Pablo Victor\Desktop\234-VendasASP.net-Core\Vendas\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Pablo Victor\Desktop\234-VendasASP.net-Core\Vendas\obj\Debug\netcoreapp2.1\Razor\Views\Vendedores\Create.g.cshtml.cs
+C:\Users\Pablo Victor\Desktop\234-VendasASP.net-Core\Vendas\obj\Debug\netcoreapp2.1\Razor\Views\Vendedores\Index.g.cshtml.cs
+C:\Users\Pablo Victor\Desktop\234-VendasASP.net-Core\Vendas\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\Pablo Victor\Desktop\234-VendasASP.net-Core\Vendas\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\Pablo Victor\Desktop\234-VendasASP.net-Core\Vendas\obj\Debug\netcoreapp2.1\Vendas.RazorTargetAssemblyInfo.cache
+C:\Users\Pablo Victor\Desktop\234-VendasASP.net-Core\Vendas\obj\Debug\netcoreapp2.1\Vendas.RazorTargetAssemblyInfo.cs
+C:\Users\Pablo Victor\Desktop\234-VendasASP.net-Core\Vendas\obj\Debug\netcoreapp2.1\Vendas.Views.pdb
+C:\Users\Pablo Victor\Desktop\234-VendasASP.net-Core\Vendas\obj\Debug\netcoreapp2.1\Vendas.dll
+C:\Users\Pablo Victor\Desktop\234-VendasASP.net-Core\Vendas\obj\Debug\netcoreapp2.1\Vendas.pdb
+C:\Users\Pablo Victor\Desktop\234-VendasASP.net-Core\Vendas\obj\Debug\netcoreapp2.1\Vendas.csproj.CopyComplete
