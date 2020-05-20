@@ -118,3 +118,4 @@ C:\Users\Pablo Victor\Desktop\234-VendasASP.net-Core\Vendas\obj\Debug\netcoreapp
 C:\Users\Pablo Victor\Desktop\234-VendasASP.net-Core\Vendas\obj\Debug\netcoreapp2.1\Vendas.pdb
 C:\Users\Pablo Victor\Desktop\234-VendasASP.net-Core\Vendas\obj\Debug\netcoreapp2.1\Vendas.csproj.CopyComplete
 C:\Users\Pablo Victor\Desktop\234-VendasASP.net-Core\Vendas\obj\Debug\netcoreapp2.1\Razor\Views\Vendedores\Delete.g.cshtml.cs
+C:\Users\Pablo Victor\Desktop\234-VendasASP.net-Core\Vendas\obj\Debug\netcoreapp2.1\Razor\Views\Vendedores\Details.g.cshtml.cs

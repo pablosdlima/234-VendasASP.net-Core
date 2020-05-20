@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -17,7 +18,7 @@ namespace Vendas.Services
 
         public List<Vendedor> FindAll()
         {
-            return _context.Vendedor.ToList();
+            return _context.Vendedor.Include(obj => obj.Departamento).ToList();
         }
         public void Insert(Vendedor obj)
         {
@@ -27,7 +28,7 @@ namespace Vendas.Services
 
         public Vendedor FindById(int id)
         {
-            return _context.Vendedor.FirstOrDefault(obj => obj.ID == id);
+            return _context.Vendedor.Include(obj => obj.Departamento).FirstOrDefault(obj => obj.ID == id);
         }
 
         public void Remove(int id)

@@ -46,16 +46,16 @@
                 @Html.DisplayFor(model => item.BaseSalarial)
             </td>
             <td>
-                @Html.DisplayFor(model => item.DepartamentoId)
+                @Html.DisplayFor(model => item.Departamento.Nome)
             </td>
             <td>
-                <a asp-action="Create" class="btn btn-default">-----</a>
+                <a asp-action="Details" asp-route-id="@item.ID" class="btn btn-success">Ver</a>
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.ID" class="btn btn-warning">Editar</a>
             </td>
             <td>
                 <a asp-action="Delete" asp-route-id="@item.ID" class="btn btn-danger">Deletar</a>
-            </td>
-            <td>
-                <a asp-action="Create" class="btn btn-default">----</a>
             </td>
         </tr>
         }
