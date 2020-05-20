@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Vendas.Models;
+using Vendas.Services.Exceptions;
 
 namespace Vendas.Services
 {
@@ -36,6 +37,24 @@ namespace Vendas.Services
             var obj = _context.Vendedor.Find(id);
             _context.Vendedor.Remove(obj);
             _context.SaveChanges();
+        }
+
+        public void Update(Vendedor obj)
+        {
+            if (!_context.Vendedor.Any(x => x.ID == obj.ID))
+            {
+                throw new NotFoundException("Id não existe...");
+            }
+            try
+            {
+                _context.Update(obj);
+                _context.SaveChanges();
+            }
+            catch(DBConcurrencyException e)
+            {
+                throw new DBConcurrencyException(e.Message);
+            }
+
         }
     }
 }

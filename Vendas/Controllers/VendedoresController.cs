@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Vendas.Models;
 using Vendas.Models.ViewModels;
 using Vendas.Services;
+using Vendas.Services.Exceptions;
 
 namespace Vendas.Controllers
 {
@@ -81,6 +82,46 @@ namespace Vendas.Controllers
             }
 
             return View(obj);
+        }
+
+        public IActionResult Edit(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+            var obj = _servicoVendas.FindById(id.Value);
+            if (id == null)
+            {
+                return NotFound();
+            }
+            List<Departamento> departamentos = _departamentoServico.FindAll();
+            VendasViewModel viewModel = new VendasViewModel { Vendedor = obj, Departamentoes = departamentos };
+
+            return View(viewModel);
+        }
+
+        [HttpPost] //informa que metodo é post
+        [ValidateAntiForgeryToken] //evita fraudes
+        public IActionResult Edit(int id,Vendedor vendedor)
+        {
+            if (id != vendedor.ID)
+            {
+                return BadRequest();
+            }
+            try
+            {
+                _servicoVendas.Update(vendedor);
+                return RedirectToAction(nameof(Index));
+            }
+            catch (NotFoundException)
+            {
+                return BadRequest();
+            }
+            catch (DBConcurrencyException)
+            {
+                return BadRequest();
+            }
         }
     }
 }
