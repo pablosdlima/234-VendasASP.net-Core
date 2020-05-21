@@ -9,17 +9,29 @@ namespace Vendas.Models
     public class Vendedor
     {
         public int ID { get; set; }
+
+        [Required (ErrorMessage = "Campo Obrigatorio")]
         public string Nome { get; set; }
+
+        [Required(ErrorMessage = "Campo Obrigatorio")]
         public string Email { get; set; }
 
         [Display(Name = "Base Salárial: ")]
         [DisplayFormat(DataFormatString ="{0:F2}")]
+        [Required(ErrorMessage = "Campo Obrigatorio")]
         public double BaseSalarial { get; set; }
 
         [Display(Name = "Data: ")]
         [DataType(DataType.Date)]
+        [Required(ErrorMessage = "Campo Obrigatorio")]
         public DateTime Data { get; set; }
+
+
+        [Required(ErrorMessage = "Campo Obrigatorio")]
         public Departamento Departamento { get; set; } //vendedor possui 1 departamento
+
+
+        [Required(ErrorMessage = "Campo Obrigatorio")]
         public int DepartamentoId { get; set; } //criando FK
         public ICollection<VendasRecord> Vendas { get; set; } = new List<VendasRecord>(); //permite o acesso a coleção dos objs
 
