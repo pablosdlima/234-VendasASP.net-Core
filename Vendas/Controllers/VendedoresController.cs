@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
@@ -46,14 +47,14 @@ namespace Vendas.Controllers
         {
             if (id == null)
             {
-                return NotFound();
+                return RedirectToAction(nameof(Error), new { messagem = "Id Não encontrado" } );
             }
 
             var obj = _servicoVendas.FindById(id.Value);
 
             if(obj == null)
             {
-                return NotFound();
+                return RedirectToAction(nameof(Error), new { messagem = "Id Não encontrado" } );
             }
 
             return View(obj);
@@ -71,14 +72,14 @@ namespace Vendas.Controllers
         {
             if (id == null)
             {
-                return NotFound();
+                return RedirectToAction(nameof(Error), new { messagem = "Id Não encontrado" } );
             }
 
             var obj = _servicoVendas.FindById(id.Value);
 
             if (obj == null)
             {
-                return NotFound();
+                return RedirectToAction(nameof(Error), new { messagem = "Id Não encontrado" } );
             }
 
             return View(obj);
@@ -88,12 +89,12 @@ namespace Vendas.Controllers
         {
             if (id == null)
             {
-                return NotFound();
+                return RedirectToAction(nameof(Error), new { messagem = "Id Não encontrado" } );
             }
             var obj = _servicoVendas.FindById(id.Value);
             if (id == null)
             {
-                return NotFound();
+                return RedirectToAction(nameof(Error), new { messagem = "Id Não encontrado" } );
             }
             List<Departamento> departamentos = _departamentoServico.FindAll();
             VendasViewModel viewModel = new VendasViewModel { Vendedor = obj, Departamentoes = departamentos };
@@ -107,7 +108,7 @@ namespace Vendas.Controllers
         {
             if (id != vendedor.ID)
             {
-                return BadRequest();
+                return RedirectToAction(nameof(Error), new { messagem = "Id Não encontrado" } );
             }
             try
             {
@@ -116,12 +117,22 @@ namespace Vendas.Controllers
             }
             catch (NotFoundException)
             {
-                return BadRequest();
+                return RedirectToAction(nameof(Error), new { messagem = "Id Não encontrado" } );
             }
             catch (DBConcurrencyException)
             {
-                return BadRequest();
+                return RedirectToAction(nameof(Error), new { messagem = "Id Não encontrado" } );
             }
+        }
+
+        public IActionResult Error (string messagem)
+        {
+            var viewModel = new ErrorViewModel
+            {
+                Mensagem = messagem,
+                RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier
+            };
+            return View();
         }
     }
 }
