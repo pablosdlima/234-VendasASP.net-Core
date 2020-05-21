@@ -47,6 +47,7 @@ namespace Vendas
             services.AddScoped<SeedingServices>(); //injeção de dependencia
             services.AddScoped<ServicoVendas>(); //injeção de dependencia
             services.AddScoped<DepartamentoServico>(); //injeção de dependencia
+            services.AddScoped<VendasRecordeServico>(); //injeção de dependencia
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

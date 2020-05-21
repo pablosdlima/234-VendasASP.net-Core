@@ -122,3 +122,4 @@ C:\Users\Pablo Victor\Desktop\234-VendasASP.net-Core\Vendas\obj\Debug\netcoreapp
 C:\Users\Pablo Victor\Desktop\234-VendasASP.net-Core\Vendas\obj\Debug\netcoreapp2.1\Razor\Views\Vendedores\Edit.g.cshtml.cs
 C:\Users\Pablo Victor\Desktop\234-VendasASP.net-Core\Vendas\obj\Debug\netcoreapp2.1\Razor\Views\VendasRecord\Index.g.cshtml.cs
 C:\Users\Pablo Victor\Desktop\234-VendasASP.net-Core\Vendas\obj\Debug\netcoreapp2.1\Razor\Views\VendasRecord\BuscaSimples.g.cshtml.cs
+C:\Users\Pablo Victor\Desktop\234-VendasASP.net-Core\Vendas\obj\Debug\netcoreapp2.1\Razor\Views\VendasRecord\BuscarGrupo.g.cshtml.cs
