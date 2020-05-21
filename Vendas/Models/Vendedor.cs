@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -10,7 +11,13 @@ namespace Vendas.Models
         public int ID { get; set; }
         public string Nome { get; set; }
         public string Email { get; set; }
+
+        [Display(Name = "Base Salárial: ")]
+        [DisplayFormat(DataFormatString ="{0:F2}")]
         public double BaseSalarial { get; set; }
+
+        [Display(Name = "Data: ")]
+        [DataType(DataType.Date)]
         public DateTime Data { get; set; }
         public Departamento Departamento { get; set; } //vendedor possui 1 departamento
         public int DepartamentoId { get; set; } //criando FK
